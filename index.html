@@ -9,5 +9,52 @@
 </head>
 <body>
     <h1>Survey Form</h1>
+    <div>
+        <h1>Survey Form</h1>
+        <form action="http://google.co.in">
+          <label> Enter your name: </label>
+          <input type="text" /><br /><br />
+          <label> Enter your age: </label>
+          <input type="number" /><br /><br />
+          <label> Your Birthday: </label>
+          <input type="date" /><br />
+          <p>
+            Your occupation:
+            <label for="student"> Student </label>
+            <input type="checkbox" id="student" name="student" value="student" />
+            <label for="working"> Working </label>
+            <input type="checkbox" id="working" name="working" value="working" />
+            <label for="other"> Other </label>
+            <input type="checkbox" id="other" name="other" value="other" /><br />
+          </p>
+          <p>Your current relationship status:</p>
+          <label for="single">Single, Never married</label>
+          <input type="radio" id="single" name="status" value="single" />
+          <label for="married">married</label>
+          <input type="radio" id="married" name="status" value="married" />
+          <label for="complicated">complicated</label>
+          <input type="radio" id="complicated" name="status" value="complicated" />
+          <label for="widowed">Widowed</label>
+          <input type="radio" id="widowed" name="status" value="widowed" />
+          <label for="divorced">Divorced</label>
+          <input type="radio" id="divorced" name="status" value="divorced"/><br /><br />
+          <label for="choose"
+            ><b>Love or Money :</b> which one u will choose?</label
+          >
+          <select id="choose" name="choose">
+            <option value="love">Love</option>
+            <option value="money">Money</option></select
+          ><br /><br />
+          <label for="writesth">
+            Write something that u would like to tell me the most:
+          </label><br>
+          <textarea id="writesth" rows="10" cols="60"></textarea>
+          <br />
+            <input type="submit" value="Submit Form" />
+            <input type="reset" value="Reset"/>
+          <br />
+          <br/>
+        </form>
+    </div>
 </body>
 </html>
