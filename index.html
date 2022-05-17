@@ -17,38 +17,45 @@
             <input type="text" name="name" placeholder="Enter Your Name" class="box"/><br><br>
             <input type="number" name="age" placeholder="Enter Your Age" class="box"/><br><br>
             <input type="date" name="bday" placeholder="Enter Your Birthday" class="box"/><br><br>
+
+            <!--Checkbox-->
             <p>Your Occupation:<br>
             <input type="checkbox" id="student"/>
-            <label for="student">Student</label>
+            <label for="student">&nbsp; Student &nbsp; &nbsp;</label>
             <input type="checkbox" id="working"/>
-            <label for ="working">Working</label>
+            <label for ="working">&nbsp; Working &nbsp; &nbsp;</label>
             <input type="checkbox" id="others"/>
-            <label for ="others">Others</label><br>
-            </p>
+            <label for ="others">&nbsp; Others &nbsp; &nbsp;</label><br>
+            </p><br>
+
+            <!--Radio-->
             <p>Your current status:<br>
-                <input type="radio" name="status" id="single"/>
-                <label for="single">Single, Never married</label>
+                <input type="radio" name="status" id="single" background-color:goldrod/>
+                <label for="single">Single, Never married &nbsp;</label>
                 <input type="radio" name="status" id="married"/>
-                <label for="married">Married</label>
+                <label for="married">Married &nbsp;</label>
                 <input type="radio" name="status" id="com"/>
-                <label for="com">Complicated</label>
+                <label for="com">Complicated &nbsp;</label>
                 <input type="radio" name="status" id="wid"/>
-                <label for="wid">Widowed</label>
+                <label for="wid">Widowed &nbsp;</label>
                 <input type="radio" name="status" id="other"/>
-                <label for="other">Other</label>
-            </p>
-            <label><b>Love or Money: </b> which one would u choose?</label>
-            <select>
+                <label for="other">Other &nbsp;</label>
+            </p><br>
+
+            <!--Select Box-->
+            <label style="color: gold;"><b>Love or Money: </b> which one would u choose? &nbsp;</label>
+            <select style="width: 45%; height:1cm; border-radius: 15px; background-color:black; color:gold; border: greenyellow; text-align: center; border-style: dotted;">
+                <option name="select">Choose</option>
                 <option value="">Love</option>
                 <option value="">Money</option>
-            </select><br><br>
-            <label for="writesth">
-                Write something that u would like to tell me the most:
-              </label><br>
-              <textarea id="writesth" rows="10" cols="60"></textarea>
+            </select><br><br><br>
+              <textarea id="writesth"placeholder="Write something that u would like to tell me the most:" style="background-color:goldenrod; border-radius: 15px; border:whitesmoke; position: relative; width: 98%; height: 5cm; text-align:center; border-style: ridge;"></textarea><br>
               <br />
-            <input type="submit" value="Submit"/>
-            <input type="reset" value="Reset"/>
+            
+            <!--Buttons-->
+            <input type="submit" value="Submit" style="background-color: black; color: gold; width: 48%; height: 1.5cm; border-radius: 50px; border:goldenrod; border-style: double;"/>
+            <input type="reset" value="Reset" style="background-color: black; color: gold; width: 48%; height: 1.5cm; border-radius: 50px; border:goldenrod; border-style: double;"/>
+
         </div>
     </form>
 </body>
