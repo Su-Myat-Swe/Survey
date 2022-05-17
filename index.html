@@ -8,6 +8,48 @@
     <title>Survey</title>
 </head>
 <body>
-    <h1>Survey Form</h1>
+    <div>
+        <h1>Survey Form</h1>
+    </div>
+
+    <form>
+        <div>
+            <input type="text" name="name" placeholder="Enter Your Name" class="box"/><br><br>
+            <input type="number" name="age" placeholder="Enter Your Age" class="box"/><br><br>
+            <input type="date" name="bday" placeholder="Enter Your Birthday" class="box"/><br><br>
+            <p>Your Occupation:<br>
+            <input type="checkbox" id="student"/>
+            <label for="student">Student</label>
+            <input type="checkbox" id="working"/>
+            <label for ="working">Working</label>
+            <input type="checkbox" id="others"/>
+            <label for ="others">Others</label><br>
+            </p>
+            <p>Your current status:<br>
+                <input type="radio" name="status" id="single"/>
+                <label for="single">Single, Never married</label>
+                <input type="radio" name="status" id="married"/>
+                <label for="married">Married</label>
+                <input type="radio" name="status" id="com"/>
+                <label for="com">Complicated</label>
+                <input type="radio" name="status" id="wid"/>
+                <label for="wid">Widowed</label>
+                <input type="radio" name="status" id="other"/>
+                <label for="other">Other</label>
+            </p>
+            <label><b>Love or Money: </b> which one would u choose?</label>
+            <select>
+                <option value="">Love</option>
+                <option value="">Money</option>
+            </select><br><br>
+            <label for="writesth">
+                Write something that u would like to tell me the most:
+              </label><br>
+              <textarea id="writesth" rows="10" cols="60"></textarea>
+              <br />
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+        </div>
+    </form>
 </body>
 </html>
